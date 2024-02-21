@@ -17,7 +17,7 @@ Clone the repository to your local machine:
 
 bash
 Copy code
-git clone https://github.com/your_username/chatbot-project.git
+git clone (https://github.com/meetgudlani7/LearnIT_Hackathon)
 Navigate to the project directory:
 
 bash
