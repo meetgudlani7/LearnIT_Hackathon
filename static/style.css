@@ -221,18 +221,6 @@ border-radius: 0 0 15px 15px !important;
     max-width: 50%; 
 
 }
-.input-group {
-    max-width: 80%; 
-}
-
-.type_msg {
-    width: 80%; 
-}
-
-.send_btn {
-    width: 20%; 
-}
-
 @media(max-width: 576px){
 	.contacts_card{
 	margin-bottom: 15px !important;
