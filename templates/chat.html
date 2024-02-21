@@ -79,7 +79,7 @@
 							msg: rawText,
 						},
 						type: "POST",
-						url: "/get",
+						url: "/get",	
 					}).done(function(data) {
 						var botHtml =
 							'<div class="d-flex justify-content-start mb-4"><div class="img_cont_msg"><img src="https://i.ibb.co/vP0Kkxc/image-processing20200616-22394-qqn1j6.png" class="rounded-circle user_img_msg"></div><div class="msg_cotainer">' +
@@ -87,14 +87,11 @@
 							'</div></div>';
 						$("#messageFormeight").append($.parseHTML(botHtml));
 		
-						// Speak the last response provided by the bot
-						speakLastResponse();
 					});
 					event.preventDefault();
 				});
 			});
 		</script>
-		
 		
         
     </body>
