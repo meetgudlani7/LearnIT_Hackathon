@@ -1,11 +1,7 @@
 from flask import Flask, render_template, request
+from bot import get_Chat_response
 
 app = Flask(__name__)
-
-# Dummy function to return a response for the chatbot
-def get_Chat_response(input):
-    # Dummy implementation, replace with actual chatbot logic
-    return "This is a dummy response for: " + input
 
 @app.route("/")
 def index():
