@@ -28,6 +28,7 @@ Install Flask and other dependencies:
 
 Copy code
 pip install flask
+pip install replicate
 Run the Flask application:
 
 Copy code
