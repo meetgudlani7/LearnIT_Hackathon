@@ -1,7 +1,7 @@
 import os
 import replicate
 #Set the REPLICATE_API_TOKEN environment variable
-os.environ["REPLICATE_API_TOKEN"] = "r8_R2ipmFqFZj5gt6lPsvUSkS5qPtLkoIC1m843p"
+os.environ["REPLICATE_API_TOKEN"] = "r8_JQbNwBxILxCAD6ZvFnmIsQW4niGy0TD3fbQMI"
 def get_text(text):
     return text
 
